@@ -1,0 +1,29 @@
+{
+  "name": "twitter-covid-bot",
+  "version": "0.0.1",
+  "description": "Twitter bot to RT COVID help requests",
+  "main": "./config.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "twit": "^2.2.11"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arghyab0/twitter-covid-bot.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "express",
+    "twitter",
+    "retweet",
+    "bot"
+  ]
+}
